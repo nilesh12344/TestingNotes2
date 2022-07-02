@@ -1,0 +1,66 @@
+what are waits where we use them?
+	Technical term - for using wait -  TO SOLVE SYNCHRONISATION PROBLEM
+	
+Desired capabilities in automation where do we use it?
+	what we specify - TO SPECIFY THE CONFIGURATION (like browser, project name) 
+	format - KEY and VALUE pairs
+	where do we use it-
+	
+Exceptions got in selenium?
+	StailElementException - ?
+	
+Use of javaScriptExecutor?
+	for any type of operation.
+	execute java script using selenium
+	
+How to find number of options in drop down?
+	by using select class
+	code for finding the number of options in drop down.
+	ANS - 
+	WebElement element = driver.findElement(By.xpath(""));
+	Select s = new Select(element);
+	int size = s.getOptions().size();
+	sysout(i);
+	
+Methods from Apache poi?
+	operations like get the excelsheet, getrows, getcolumns, getData
+	
+what is the use of annotations in testNG?
+	to control order of execution of the code
+	
+what is the main role of xml file in testNG?
+	
+how to pass parameters usin the xml file?
+
+what is mean by testNG listener method?
+	onTestSuccess, onTestFailure
+
+What is an ObjectRepository
+	POM classes -
+	POM - contains all the webelements at one location]
+	each webpage has on pom class
+	
+Main componenents in frameworks in maven?
+	project structure.
+
+What does pom.xml contains?
+	--- description on project
+	--- plugins and dependencies
+
+How to run pom.xml using cmd?
+
+what are type of maven commands?
+	clean(), build(), refresh(),  
+	
+difference between junit and testNG?
+
+Additional advatages of testNG?
+	testNG - 
+	Junit - not proper report generation
+
+Feedback- 
+Improve - coding part - syntactical area
+Theorotical area - good
+answer the quesetions in clear manner
+answer must be short and simple
+you can use pen and paper to answer the question
